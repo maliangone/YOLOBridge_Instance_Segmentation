@@ -4,8 +4,8 @@ services:
   model_server:
     build: .
     environment:
-      - LABEL_STUDIO_HOST=http://10.0.150.208:5010 # Need to update host for new instances of label studio 
-      - LABEL_STUDIO_API_KEY=2b01979b1b9be6ceb6471ab8f5a94fe92c2e2872 # Need to update api key for new instances of label studio. Can be found in label studio settings.
+      - LABEL_STUDIO_HOST=http://xx.xx:5010 # Need to update host for new instances of label studio 
+      - LABEL_STUDIO_API_KEY= # Need to update api key for new instances of label studio. Can be found in label studio settings.
       - TZ=Asia/Shanghai
       - NVIDIA_VISIBLE_DEVICES=MIG-f3c77f5e-30d7-5ee8-b28c-1ec2c86c24ca
       - NVIDIA_DRIVER_CAPABILITIES=compute,utility
