@@ -1,0 +1,10 @@
+boto3
+click
+opencv-contrib-python-headless
+ultralytics
+gunicorn
+label-studio-sdk
+label-studio-ml
+label_studio_tools
+redis
+rq==1.10.1
